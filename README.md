@@ -143,28 +143,3 @@ List<Employee> sorted = EmployeeCRUD.sortEmployeesBy("name", false);
 ```bash
 docker-compose up -d
 ```
-
-## 🤝 Вклад в проект
-
-Приглашаем к участию! Пожалуйста:
-1. Fork репозиторий
-2. Создай ветку для новой функции (`git checkout -b feature/AmazingFeature`)
-3. Commit изменения (`git commit -m 'Add some AmazingFeature'`)
-4. Push в ветку (`git push origin feature/AmazingFeature`)
-5. Открой Pull Request
-
-## 📝 Лицензия
-
-MIT — свободен для использования в личных и коммерческих проектах.
-
-## 👤 Автор
-
-Создано во время практики по СУБД MongoDB.
-
-## 📞 Контакты
-
-Вопросы? Открой Issue или свяжись со мной.
-
----
-
-**Статус**: ✅ Готов к использованию | **Версия**: 1.0.0 | **Java**: 11+
