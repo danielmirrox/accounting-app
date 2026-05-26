@@ -1,0 +1,32 @@
+name: Feature Request
+description: Suggest an enhancement
+title: "[FEATURE] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: "Share your ideas to make this project better!"
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature Description
+      placeholder: Describe the feature clearly
+    validations:
+      required: true
+  
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use Case
+      placeholder: Why do we need this?
+    validations:
+      required: true
+  
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      placeholder: How should it work?
+    validations:
+      required: true

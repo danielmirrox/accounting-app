@@ -1,0 +1,51 @@
+name: Bug Report
+description: Report a bug to help us improve
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Please fill in the details below.
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      placeholder: Describe the bug clearly
+    validations:
+      required: true
+  
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: How to Reproduce
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      placeholder: What should happen?
+    validations:
+      required: true
+  
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: |
+        - Java version: 
+        - MongoDB version:
+        - OS:
+      value: |
+        - Java version:
+        - MongoDB version:
+        - OS:
+    validations:
+      required: true
